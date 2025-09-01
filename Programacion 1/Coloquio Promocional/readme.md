@@ -70,11 +70,11 @@ git clone https://github.com/tu_usuario/gestion-notas.git
 - Modificar notas
 
 🗂️ Estructura del proyecto
-<img width="601" height="133" alt="imagen" src="https://github.com/user-attachments/assets/18504d72-973c-4fd3-b140-99bc9741794e" />
+- <img width="601" height="133" alt="imagen" src="https://github.com/user-attachments/assets/18504d72-973c-4fd3-b140-99bc9741794e" />
 
 
 📌 Ejemplo de ejecución
-<img width="606" height="476" alt="imagen" src="https://github.com/user-attachments/assets/c68e9a37-a6ae-429a-b8ae-7837b44b1fd0" />
+- <img width="606" height="476" alt="imagen" src="https://github.com/user-attachments/assets/c68e9a37-a6ae-429a-b8ae-7837b44b1fd0" />
 
 
 📌 Autor
