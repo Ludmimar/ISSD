@@ -6,6 +6,10 @@
 Este repositorio contiene el **programa de contenidos del curso de Java**, desde fundamentos hasta temas avanzados de programación orientada a objetos, colecciones y gestión de archivos.  
 
 > Los contenidos de cada clase se irán subiendo progresivamente.
+---
+> Carrera: Técnico Superior en Desarrollo de Software
+
+> Profesor: Gabriel Arriola | Año: 2025 | Semestre: 2°
 
 ---
 
