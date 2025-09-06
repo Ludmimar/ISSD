@@ -1,0 +1,13 @@
+¿Por qué elegir Python para aprender a programar?
+https://www.youtube.com/watch?v=PmKippFOxNA
+
+Curso de Python dictado por profe Diego Moisset
+https://youtu.be/kwmPylZFBNc
+
+
+
+Descarguemos python!
+
+PYTHON (https://www.python.org/)
+
+Desde la pestaña descargas/downloads vamos a descargar la ultima versión de python que nuestro sistema operativo nos permita (en el caso de que tengas Windows 10 cualquier versión reciente te va a funcionar, trata de que sea una reciente 😀, en el caso de que tengas un Windows mas viejito u otro sistema operativo, chequeá que la versión que descargues sea compatible) 
