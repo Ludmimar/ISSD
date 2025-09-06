@@ -1,0 +1,7 @@
+
+Clase 2. Estructuras condicionales
+decisions_logo 	
+
+Tomar decisiones
+
+Seguramente la primera clase te llevó tiempo, y posiblemente te haya parecido un poco extensa, pero sentó las bases de todo lo que sigue. Si no la completaste o dejaste ejercicios sin probar en tu computadora, no sigas adelante con esta nueva clase. Estamos construyendo un edificio: si los cimientos no están seguros, será en vano intentar ensamblar los pisos superiores. Esta semana vamos a aprender un tema muy importante y que utilizaremos en la mayoría de los programas siguientes: ¿cómo diseñar un algoritmo que sea capaz de tomar decisiones?

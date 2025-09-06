@@ -1,0 +1,7 @@
+Para cada uno de los siguientes ejercicios, indica si la condición resultará
+Verdadera o Falsa (el punto a | ya está resuelto como ejemplo):
+a| 16 > (7 + 9): Falsa
+b| 2 == (10 % 4): Falsa
+c| 7 >= (3 * 2): Verdadero
+d| 10 ¡= (30 / 3): Falso
+e| (18 – 5) <= 13: Verdadero
