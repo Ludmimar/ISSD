@@ -1,0 +1,13 @@
+
+Clase 4. Estructura repetitiva for
+
+	
+
+ 
+
+forLoop
+	
+
+Más sobre ciclos
+
+En la vida real existen muchos problemas que involucran ciclos repetitivos. Pero hay casos en los cuales conocemos anticipadamente la cantidad de veces en que deberá reiterarse ese ciclo. A fin de optimizar el diseño de algoritmos de éste tipo, podemos aplicar una estructura llamada For, que si bien su función podría ser reemplazada por un While más un contador, tiene la ventaja de simplificar el proceso y hacerlo más sencillo de visualizar.
