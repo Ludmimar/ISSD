@@ -1,0 +1,13 @@
+
+Clase 3. Estructura repetitiva while
+
+	
+
+ 
+
+while loop
+	
+
+Una y otra vez
+
+Muchas veces nos encontraremos con situaciones que exigen que una misma operación se realice muchas veces. En estos casos, aplicaremos unas estructuras de programación denominadas estructuras repetitivas. Durante esta clase aprenderemos a usar una de ellas, y en las que siguen abordaremos otras, que serán más prácticas para ciertas ocasiones. Finalmente, analizaremos los contadores y los acumuladores, que no son más que variables cuyo valor se modifica de una forma particular. Vamos así adquiriendo nuevas herramientas, ampliando nuestro repertorio de soluciones informáticas.
