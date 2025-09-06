@@ -51,7 +51,7 @@ El programa permite **cargar alumnos**, calcular promedios, asignar condiciones 
 
 1. Clonar el repositorio:  
 ```bash
-git clone https://github.com/tu_usuario/gestion-notas.git
+git clone https://github.com/Ludmimar/ISSD/tree/main/Programacion1/ColoquioPromocional
 ```
 
 2.Entrar a la carpeta del proyecto:
