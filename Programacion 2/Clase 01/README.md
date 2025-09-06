@@ -16,23 +16,6 @@ Este repositorio contiene los ejercicios desarrollados en la primera clase del c
 
 ---
 
-- Clase1.java → Hola Mundo
-- Clase2.java → Tipos de variables
-- Clase3.java → If/Else con aleatorios
-- Problema1.java → Cantidad de dígitos de un número
-- Problema2.java → Promedio de 3 valores
-- Problema3.java → Menor de 3 valores
-- Clase7.java → Switch: número en letras
-- Clase8.java → Switch con premios
-- Clase9.java → Entrada de datos por teclado
-- Problema4.java → Sueldo de un operario
-- Problema5.java → Perímetro de un cuadrado
-- Problema6.java → Precio * cantidad
-- Problema7.java → Promedio de notas
-- Problema8.java → Positivo, nulo o negativo
-
----
-
 ## 🛠 Requisitos
 
 - Java Development Kit (JDK) versión 18 o superior
