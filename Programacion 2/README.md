@@ -27,7 +27,7 @@
 |-------|-----------|--------|---------------------|
 | **Clase 01** | ⚡ Fundamentos de Java y primeros pasos | ✅ Completa | Ejercicios 1-5, Problemas 1-8 |
 | **Clase 02** | 🔁 Estructuras repetitivas | ✅ Completa | Ejercicios 1-12, ProyectoBase |
-| **Clase 03** | 🗃 Arrays de 1 y n dimensiones | 🔄 En desarrollo | - |
+| **Clase 03** | 🧩 Programación orientada a objetos | ✅ Completa | Ejercicios 1-15 |
 | **Clase 04** | 🧩 Programación orientada a objetos | 🔄 En desarrollo | - |
 | **Clase 05** | 🏗 Composición y herencia | 🔄 En desarrollo | - |
 | **Clase 06** | 📋 Colecciones y listas | 🔄 En desarrollo | - |
@@ -59,11 +59,11 @@
 - 🔄 **Métodos de arrays**: Ordenamiento, búsqueda, manipulación
 - 🔄 **Algoritmos con arrays**: Problemas prácticos
 
-### 🔹 Unidad IV – Programación Orientada a Objetos
-- 🔄 **Clases y objetos**: Definición, instanciación
-- 🔄 **Atributos y métodos**: Encapsulación, modificadores de acceso
-- 🔄 **Constructores**: Inicialización de objetos
-- 🔄 **Herencia**: Jerarquías de clases, polimorfismo
+### 🔹 Unidad III – Programación Orientada a Objetos
+- ✅ **Clases y objetos**: Definición, instanciación
+- ✅ **Atributos y métodos**: Encapsulación, modificadores de acceso
+- ✅ **Constructores**: Inicialización de objetos
+- ✅ **Métodos estáticos**: Atributos y métodos de clase
 
 ### 🔹 Unidad V – Colecciones y Frameworks
 - 🔄 **Listas**: ArrayList, LinkedList
@@ -85,6 +85,26 @@
 - Plantilla para nuevos ejercicios
 
 **Tecnologías**: Java 8+, IntelliJ IDEA
+
+### 📁 Clase 03 - Programación Orientada a Objetos
+**Ubicación**: `Clase 03/`
+
+**Estructura de Ejercicios**:
+```
+Ejercicio XX - Nombre/
+├── EjercicioXX.iml          # Configuración del módulo IntelliJ
+└── src/                      # Código fuente
+    ├── Main.java           # Archivo principal
+    └── [Otros archivos .java]  # Archivos adicionales
+```
+
+**Ejercicios Incluidos**: 15 ejercicios completos
+- Ejercicios 1-6: Conceptos básicos (clases, objetos, métodos)
+- Ejercicios 7-10: Constructores y métodos con parámetros
+- Ejercicios 11-13: Múltiples objetos y sobrecarga
+- Ejercicios 14-15: Miembros estáticos
+
+**Tecnologías**: Java 8+, IntelliJ IDEA, Programación Orientada a Objetos
 
 ---
 
@@ -164,8 +184,8 @@
 
 - [x] Fundamentos de Java
 - [x] Estructuras repetitivas
+- [x] Programación orientada a objetos
 - [ ] Arrays y estructuras de datos
-- [ ] Programación orientada a objetos
 - [ ] Herencia y polimorfismo
 - [ ] Colecciones avanzadas
 - [ ] Manejo de excepciones
