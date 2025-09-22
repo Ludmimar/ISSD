@@ -19,16 +19,33 @@
 
 ---
 
-## 📂 Estructura del Curso
+## 📅 Cronograma de Cursado - Agosto 2025
 
-### 📚 Clases Implementadas
+| Semana | Fecha | Clase | Contenido | Estado | Archivos Principales |
+|--------|-------|-------|-----------|--------|---------------------|
+| **Semana 1** | 18-ago | **Clase 0** | 🎉 Bienvenida | ✅ Completa | - |
+| **Semana 2** | 25-ago | **Clase 1** | ⚡ Fundamentos de Java y primeros pasos | ✅ Completa | Ejercicios 1-5, Problemas 1-8 |
+| **Semana 3** | 1-sep | **Clase 2** | 🔁 Estructuras repetitivas | ✅ Completa | Ejercicios 1-12, ProyectoBase |
+| **Semana 4** | 8-sep | **Clase 3** | 📊 Arrays de 1 y n dimensiones | ✅ Completa | Ejercicios 1-10, Problemas 1-8 |
+| **Semana 5** | 15-sep | **Clase 4** | 🧩 Programación orientada a objetos | ✅ Completa | Ejercicios 1-15 |
+| **Semana 6** | 22-sep | **Clase 5** | 🏗 Composición y herencia | 🔄 En desarrollo | - |
+| **Semana 7** | 29-sep | **Clase 6** | 📋 Colecciones y listas // **1° Parcial** | 🔄 En desarrollo | - |
+| **Semana 8** | 6-oct | **Clase 7** | 🗺 Mapas | 🔄 En desarrollo | - |
+| **Semana 9** | 13-oct | **Clase 8** | 📦 Queues, Stack y Set | 🔄 En desarrollo | - |
+| **Semana 10** | 20-oct | **Clase 9** | ⚠ Exceptions | 🔄 En desarrollo | - |
+| **Semana 11** | 27-oct | **Clase 10** | 📂 Gestión de archivos | 🔄 En desarrollo | - |
+| **Semana 12** | 3-nov | **Clase 11** | 🚀 Principios de Maven y Spring // **2° Parcial** | 🔄 En desarrollo | - |
+| **Semana 13** | 10-nov | - | 📚 Promociones y recuperatorios | 🔄 En desarrollo | - |
+| **Semana 14** | 14-18 nov | - | 📚 Promociones y recuperatorios | 🔄 En desarrollo | - |
+
+### 📚 Estado de Implementación
 
 | Clase | Contenido | Estado | Archivos Principales |
 |-------|-----------|--------|---------------------|
 | **Clase 01** | ⚡ Fundamentos de Java y primeros pasos | ✅ Completa | Ejercicios 1-5, Problemas 1-8 |
 | **Clase 02** | 🔁 Estructuras repetitivas | ✅ Completa | Ejercicios 1-12, ProyectoBase |
-| **Clase 03** | 🧩 Programación orientada a objetos | ✅ Completa | Ejercicios 1-15 |
-| **Clase 04** | 📊 Arrays unidimensionales y bidimensionales | ✅ Completa | Ejercicios 1-10, Problemas 1-8 |
+| **Clase 03** | 📊 Arrays de 1 y n dimensiones | ✅ Completa | Ejercicios 1-10, Problemas 1-8 |
+| **Clase 04** | 🧩 Programación orientada a objetos | ✅ Completa | Ejercicios 1-15 |
 | **Clase 05** | 🏗 Composición y herencia | 🔄 En desarrollo | - |
 | **Clase 06** | 📋 Colecciones y listas | 🔄 En desarrollo | - |
 | **Clase 07** | 🗺 Mapas | 🔄 En desarrollo | - |
@@ -243,12 +260,35 @@ Problema XX/
 
 ---
 
+## 🎯 Hitos Importantes del Cronograma
+
+### 📊 Progreso Actual (Agosto 2025)
+- ✅ **Semana 1-5**: Fundamentos completados (Clases 0-4)
+- 🔄 **Semana 6**: Composición y herencia (Clase 5) - En desarrollo
+- 📅 **Semana 7**: 1° Parcial - Colecciones y listas
+- 📅 **Semana 12**: 2° Parcial - Maven y Spring
+- 📅 **Semana 13-14**: Promociones y recuperatorios
+
+### 🚀 Próximos Objetivos
+- **Completar Clase 5**: Composición y herencia
+- **Desarrollar Clase 6**: Colecciones y listas (preparación para 1° parcial)
+- **Implementar Clases 7-11**: Contenidos avanzados hasta 2° parcial
+
+---
+
 ## 🏆 Evaluaciones
 
-- **1° Parcial**: Colecciones y listas (Clase 6)
-- **2° Parcial**: Principios de Maven y Spring (Clase 11)
-- **Promociones**: Material adicional disponible
-- **Recuperatorios**: Secciones dedicadas
+### 📅 Fechas de Evaluación
+- **1° Parcial**: Semana 7 (29-sep) - Colecciones y listas (Clase 6)
+- **2° Parcial**: Semana 12 (3-nov) - Principios de Maven y Spring (Clase 11)
+
+### 📚 Períodos de Evaluación
+- **Promociones**: Semana 13 (10-nov)
+- **Recuperatorios**: Semana 14 (14-18 nov)
+
+### 📋 Contenidos por Evaluación
+- **1° Parcial**: Clases 1-6 (Fundamentos hasta Colecciones)
+- **2° Parcial**: Clases 7-11 (Mapas hasta Maven/Spring)
 
 ---
 
