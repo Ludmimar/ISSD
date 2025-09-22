@@ -214,8 +214,14 @@ for(int i = 0; i < array.length; i++) {
 
 ## 👨‍💻 Autor
 
-**Martos Ludmila**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ludmimar89/)
+**Desarrollador**: Ludmila Martos
+
+## 📞 Contacto
+
+- **Email**: [ludmilamartos@gmail.com](mailto:ludmilamartos@gmail.com)
+- **LinkedIn**: [ludmimar89](https://www.linkedin.com/in/ludmimar89/)
+- **GitHub**: [Ludmimar](https://github.com/Ludmimar)
+
 
 ---
 
