@@ -28,7 +28,7 @@
 | **Clase 01** | ⚡ Fundamentos de Java y primeros pasos | ✅ Completa | Ejercicios 1-5, Problemas 1-8 |
 | **Clase 02** | 🔁 Estructuras repetitivas | ✅ Completa | Ejercicios 1-12, ProyectoBase |
 | **Clase 03** | 🧩 Programación orientada a objetos | ✅ Completa | Ejercicios 1-15 |
-| **Clase 04** | 🧩 Programación orientada a objetos | 🔄 En desarrollo | - |
+| **Clase 04** | 📊 Arrays unidimensionales y bidimensionales | ✅ Completa | Ejercicios 1-10, Problemas 1-8 |
 | **Clase 05** | 🏗 Composición y herencia | 🔄 En desarrollo | - |
 | **Clase 06** | 📋 Colecciones y listas | 🔄 En desarrollo | - |
 | **Clase 07** | 🗺 Mapas | 🔄 En desarrollo | - |
@@ -54,12 +54,12 @@
 - ✅ **Bucles anidados**: Complejidad algorítmica
 
 ### 🔹 Unidad III – Arrays y Estructuras de Datos
-- 🔄 **Arrays unidimensionales**: Declaración, inicialización, acceso
-- 🔄 **Arrays multidimensionales**: Matrices y arrays anidados
-- 🔄 **Métodos de arrays**: Ordenamiento, búsqueda, manipulación
-- 🔄 **Algoritmos con arrays**: Problemas prácticos
+- ✅ **Arrays unidimensionales**: Declaración, inicialización, acceso
+- ✅ **Arrays multidimensionales**: Matrices y arrays anidados
+- ✅ **Métodos de arrays**: Ordenamiento, búsqueda, manipulación
+- ✅ **Algoritmos con arrays**: Problemas prácticos
 
-### 🔹 Unidad III – Programación Orientada a Objetos
+### 🔹 Unidad IV – Programación Orientada a Objetos
 - ✅ **Clases y objetos**: Definición, instanciación
 - ✅ **Atributos y métodos**: Encapsulación, modificadores de acceso
 - ✅ **Constructores**: Inicialización de objetos
@@ -105,6 +105,54 @@ Ejercicio XX - Nombre/
 - Ejercicios 14-15: Miembros estáticos
 
 **Tecnologías**: Java 8+, IntelliJ IDEA, Programación Orientada a Objetos
+
+### 📁 Clase 04 - Arrays Unidimensionales y Bidimensionales
+**Ubicación**: `Clase 04/`
+
+**Estructura de Ejercicios**:
+```
+Ejercicio XX/
+├── EjercicioXX.iml          # Configuración del módulo IntelliJ
+└── src/                      # Código fuente
+    └── NombreClase.java     # Archivo principal
+
+Problema XX/
+├── ProblemaXX.iml           # Configuración del módulo IntelliJ
+└── src/                      # Código fuente
+    └── NombreClase.java     # Archivo principal
+```
+
+**Ejercicios Incluidos**: 10 ejercicios + 8 problemas completos
+
+#### Arrays Unidimensionales:
+- **Ejercicio01** - SueldoEmpleados: Introducción básica a arrays
+- **Ejercicio02** - ProblemaArray1: Atributo length y valores aleatorios
+- **Ejercicio03** - ProblemaArray2: Arrays de tamaño dinámico
+- **Ejercicio04** - AmericaSur: Arrays inicializados y paralelos
+- **Ejercicio05** - ProblemaOrdenamiento: Algoritmo burbuja y rendimiento
+
+#### Arrays Bidimensionales:
+- **Ejercicio06** - PruebaArrayBi1: Introducción a matrices
+- **Ejercicio07** - TableroAjedrez: Arrays inicializados bidimensionales
+- **Ejercicio08** - Ejercicio1: Arrays dinámicos con atributo length
+- **Ejercicio09** - ArrayIrregular: Arrays irregulares dinámicos
+- **Ejercicio10** - ArrayIrregularFijo: Arrays irregulares predefinidos
+
+#### Problemas Propuestos:
+- **Problema01-04**: Arrays unidimensionales con operaciones avanzadas
+- **Problema05-08**: Arrays bidimensionales con operaciones matriciales
+
+**Conceptos Clave**:
+- Declaración y creación de arrays (`int[]`, `int[][]`)
+- Atributo `length` y arrays dinámicos
+- Arrays inicializados vs arrays creados con `new`
+- Arrays paralelos y búsqueda de elementos
+- Algoritmos de ordenamiento (burbuja)
+- Medición de rendimiento (`System.currentTimeMillis()`)
+- Matrices regulares e irregulares
+- Operaciones matriciales (diagonales, filas, columnas)
+
+**Tecnologías**: Java 8+, IntelliJ IDEA, Estructuras de Datos
 
 ---
 
@@ -174,7 +222,8 @@ Ejercicio XX - Nombre/
 - ✅ **Sintaxis Java**: Dominio del lenguaje y sus características
 - ✅ **POO**: Programación orientada a objetos
 - ✅ **Estructuras de Control**: Bucles y condicionales avanzados
-- 🔄 **Estructuras de Datos**: Arrays y colecciones
+- ✅ **Estructuras de Datos**: Arrays unidimensionales y bidimensionales
+- 🔄 **Colecciones**: Listas, mapas y sets
 - 🔄 **Gestión de Errores**: Manejo de excepciones
 - 🔄 **Frameworks**: Maven y Spring básico
 
@@ -185,7 +234,7 @@ Ejercicio XX - Nombre/
 - [x] Fundamentos de Java
 - [x] Estructuras repetitivas
 - [x] Programación orientada a objetos
-- [ ] Arrays y estructuras de datos
+- [x] Arrays y estructuras de datos
 - [ ] Herencia y polimorfismo
 - [ ] Colecciones avanzadas
 - [ ] Manejo de excepciones
