@@ -28,7 +28,7 @@
 | **Semana 3** | 1-sep | **Clase 2** | 🔁 Estructuras repetitivas | ✅ Completa | Ejercicios 1-12, ProyectoBase |
 | **Semana 4** | 8-sep | **Clase 3** | 📊 Arrays de 1 y n dimensiones | ✅ Completa | Ejercicios 1-10, Problemas 1-8 |
 | **Semana 5** | 15-sep | **Clase 4** | 🧩 Programación orientada a objetos | ✅ Completa | Ejercicios 1-15 |
-| **Semana 6** | 22-sep | **Clase 5** | 🏗 Composición y herencia | 🔄 En desarrollo | - |
+| **Semana 6** | 22-sep | **Clase 5** | 🏗 Composición y herencia | ✅ Completa | Ejercicios 1-6, Problemas 1-3 |
 | **Semana 7** | 29-sep | **Clase 6** | 📋 Colecciones y listas // **1° Parcial** | 🔄 En desarrollo | - |
 | **Semana 8** | 6-oct | **Clase 7** | 🗺 Mapas | 🔄 En desarrollo | - |
 | **Semana 9** | 13-oct | **Clase 8** | 📦 Queues, Stack y Set | 🔄 En desarrollo | - |
@@ -46,7 +46,7 @@
 | **Clase 02** | 🔁 Estructuras repetitivas | ✅ Completa | Ejercicios 1-12, ProyectoBase |
 | **Clase 03** | 📊 Arrays de 1 y n dimensiones | ✅ Completa | Ejercicios 1-10, Problemas 1-8 |
 | **Clase 04** | 🧩 Programación orientada a objetos | ✅ Completa | Ejercicios 1-15 |
-| **Clase 05** | 🏗 Composición y herencia | 🔄 En desarrollo | - |
+| **Clase 05** | 🏗 Composición y herencia | ✅ Completa | Ejercicios 1-6, Problemas 1-3 |
 | **Clase 06** | 📋 Colecciones y listas | 🔄 En desarrollo | - |
 | **Clase 07** | 🗺 Mapas | 🔄 En desarrollo | - |
 | **Clase 08** | 📦 Queues, Stack y Set | 🔄 En desarrollo | - |
@@ -82,7 +82,13 @@
 - ✅ **Constructores**: Inicialización de objetos
 - ✅ **Métodos estáticos**: Atributos y métodos de clase
 
-### 🔹 Unidad V – Colecciones y Frameworks
+### 🔹 Unidad V – Composición, Herencia e Interfaces
+- ✅ **Composición**: Relaciones "tiene un" entre clases
+- ✅ **Herencia**: Relaciones "es un" con `extends` y `super`
+- ✅ **Interfaces**: Contratos con `implements` para estandarizar comportamiento
+- ✅ **Polimorfismo**: Mismo comportamiento, diferente implementación
+
+### 🔹 Unidad VI – Colecciones y Frameworks
 - 🔄 **Listas**: ArrayList, LinkedList
 - 🔄 **Mapas**: HashMap, TreeMap
 - 🔄 **Sets**: HashSet, TreeSet
@@ -171,6 +177,55 @@ Problema XX/
 
 **Tecnologías**: Java 8+, IntelliJ IDEA, Estructuras de Datos
 
+### 📁 Clase 05 - Composición, Herencia e Interfaces
+**Ubicación**: `Clase 05/`
+
+**Estructura de Ejercicios**:
+```
+Ejercicio XX/
+├── EjercicioXX.iml          # Configuración del módulo IntelliJ
+└── src/                      # Código fuente
+    ├── ClasePrincipal.java  # Archivo principal
+    └── [Otros archivos .java]  # Archivos adicionales
+
+Problema XX/
+├── ProblemaXX.iml           # Configuración del módulo IntelliJ
+└── src/                      # Código fuente
+    ├── ClasePrincipal.java  # Archivo principal
+    └── [Otros archivos .java]  # Archivos adicionales
+```
+
+**Ejercicios Incluidos**: 6 ejercicios + 3 problemas completos
+
+#### Ejercicios de Composición:
+- **Ejercicio01** - ProyectoBanco: Cliente y Banco con gestión de depósitos/extracciones
+- **Ejercicio02** - ProyectoJuegoDeDados: Dado y JuegoDeDados con lógica de juego
+- **Ejercicio03** - Club y Socio: Socio y Club con gestión de antigüedad
+
+#### Ejercicios de Herencia:
+- **Ejercicio04** - Operaciones: Operacion, Suma, Resta con métodos heredados
+- **Ejercicio05** - Persona y Empleado: Persona y Empleado con sobrescritura de métodos
+
+#### Ejercicios de Interfaces:
+- **Ejercicio06** - Interfaces de Juegos: Juego, JuegoDeDados, JuegoAdivinaNumero
+
+#### Problemas Propuestos:
+- **Problema01** - Jerarquía de Vehículos: Vehículo, Auto, Moto con polimorfismo
+- **Problema02** - Sistema de Librería: Libro, LibroFisico, LibroVirtual, Empresa
+- **Problema03** - Puntos 2D y 3D: Punto2D, Punto3D con cálculos de distancia
+
+**Conceptos Clave**:
+- **Composición**: Relaciones "tiene un" entre clases (Banco tiene Clientes)
+- **Herencia**: Relaciones "es un" con `extends` y `super` (Empleado es una Persona)
+- **Interfaces**: Contratos con `implements` para estandarizar comportamiento
+- **Polimorfismo**: Mismo comportamiento, diferente implementación
+- **Encapsulación**: Atributos privados con métodos públicos
+- **Modificadores**: `protected` para acceso desde subclases
+- **Sobrescritura**: `@Override` para métodos específicos
+- **Documentación**: Comentarios detallados en cada clase y método
+
+**Tecnologías**: Java 8+, IntelliJ IDEA, Programación Orientada a Objetos Avanzada
+
 ---
 
 ## 💻 Cómo Ejecutar los Ejercicios
@@ -240,6 +295,8 @@ Problema XX/
 - ✅ **POO**: Programación orientada a objetos
 - ✅ **Estructuras de Control**: Bucles y condicionales avanzados
 - ✅ **Estructuras de Datos**: Arrays unidimensionales y bidimensionales
+- ✅ **Composición y Herencia**: Relaciones entre clases y polimorfismo
+- ✅ **Interfaces**: Contratos y estandarización de comportamiento
 - 🔄 **Colecciones**: Listas, mapas y sets
 - 🔄 **Gestión de Errores**: Manejo de excepciones
 - 🔄 **Frameworks**: Maven y Spring básico
@@ -252,7 +309,7 @@ Problema XX/
 - [x] Estructuras repetitivas
 - [x] Programación orientada a objetos
 - [x] Arrays y estructuras de datos
-- [ ] Herencia y polimorfismo
+- [x] Herencia y polimorfismo
 - [ ] Colecciones avanzadas
 - [ ] Manejo de excepciones
 - [ ] Gestión de archivos
@@ -263,16 +320,15 @@ Problema XX/
 ## 🎯 Hitos Importantes del Cronograma
 
 ### 📊 Progreso Actual (Agosto 2025)
-- ✅ **Semana 1-5**: Fundamentos completados (Clases 0-4)
-- 🔄 **Semana 6**: Composición y herencia (Clase 5) - En desarrollo
-- 📅 **Semana 7**: 1° Parcial - Colecciones y listas
+- ✅ **Semana 1-6**: Fundamentos completados (Clases 0-5)
+- 🔄 **Semana 7**: Colecciones y listas (Clase 6) - En desarrollo
+- 📅 **Semana 8**: Mapas (Clase 7)
 - 📅 **Semana 12**: 2° Parcial - Maven y Spring
 - 📅 **Semana 13-14**: Promociones y recuperatorios
 
 ### 🚀 Próximos Objetivos
-- **Completar Clase 5**: Composición y herencia
-- **Desarrollar Clase 6**: Colecciones y listas (preparación para 1° parcial)
-- **Implementar Clases 7-11**: Contenidos avanzados hasta 2° parcial
+- **Completar Clase 6**: Colecciones y listas (preparación para 1° parcial)
+- **Desarrollar Clases 7-11**: Contenidos avanzados hasta 2° parcial
 
 ---
 
@@ -287,7 +343,7 @@ Problema XX/
 - **Recuperatorios**: Semana 14 (14-18 nov)
 
 ### 📋 Contenidos por Evaluación
-- **1° Parcial**: Clases 1-6 (Fundamentos hasta Colecciones)
+- **1° Parcial**: Clases 1-6 (Fundamentos hasta Colecciones) ✅ Clases 1-5 completas
 - **2° Parcial**: Clases 7-11 (Mapas hasta Maven/Spring)
 
 ---
