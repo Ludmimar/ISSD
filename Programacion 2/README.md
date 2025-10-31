@@ -100,6 +100,52 @@
 
 ## 🚀 Proyectos Destacados
 
+### 📁 Parcial 01 - Sistema de Gestión de Notas Académicas
+**Ubicación**: `Parcial 01/`
+
+**Descripción**: Sistema completo de gestión académica desarrollado para el primer parcial de Programación 2. Permite administrar información de alumnos, sus materias y calificaciones, con funcionalidades para calcular promedios, determinar estados de aprobación y generar reportes detallados.
+
+**Estructura del Proyecto**:
+```
+Parcial 01/
+├── Martos.Ludmila.P1.iml    # Configuración del módulo IntelliJ
+├── README.md                 # Documentación completa del proyecto
+└── src/
+    ├── Alumno.java          # Clase entidad para alumnos
+    ├── Examen.java           # Clase para gestión de exámenes y reportes
+    └── Main.java             # Clase principal con menú interactivo
+```
+
+**Características Principales**:
+- ✅ **Gestión de Alumnos**: Registro con legajo, nombre y múltiples materias
+- 📊 **Cálculo de Promedios**: Promedio automático de notas por alumno
+- 📈 **Análisis de Rendimiento**: Identificación de materias superiores al promedio
+- ✓/✗ **Estado de Materias**: Verificación automática de aprobación/desaprobación
+- 📑 **Reportes Múltiples**: Generación de reportes individuales y consolidados
+- 🎨 **Interfaz Visual**: Menú interactivo con formato de tablas Unicode
+
+**Funcionalidades del Menú**:
+1. Mostrar listado de alumnos con estado de materias
+2. Mostrar promedios de alumnos
+3. Mostrar materias superiores al promedio por alumno
+4. Mostrar todos los reportes (consolidado)
+
+**Conceptos Aplicados**:
+- **POO**: Encapsulación, composición, responsabilidad única
+- **Arrays Paralelos**: Sincronización entre arrays de materias y notas
+- **Validaciones**: Prevención de excepciones `IndexOutOfBoundsException`
+- **Algoritmos**: Cálculo de promedios, filtrado de datos
+- **Buenas Prácticas**: Métodos estáticos, documentación JavaDoc, código autodocumentado
+
+**Datos de Ejemplo Incluidos**:
+- 3 alumnos precargados con 4 materias cada uno
+- Nota de aprobación: 60 puntos
+- Sistema completo y funcional
+
+**Tecnologías**: Java SE, POO, IntelliJ IDEA, JDK 8+
+
+**Autor**: Ludmila Martos - DNI: 34811684
+
 ### 📁 Proyecto Base
 **Ubicación**: `Clase 02/ProyectoBase-main/`
 
@@ -531,7 +577,9 @@ Problema XX/
 - [x] Colecciones avanzadas (Listas, Mapas, Sets, Queues, Stacks)
 - [x] Manejo de excepciones
 - [x] Gestión de archivos
+- [x] **1° Parcial Completo**: Sistema de Gestión de Notas Académicas
 - [ ] Introducción a Maven/Spring (Clase 11)
+- [ ] 2° Parcial (Pendiente)
 
 ---
 
@@ -540,6 +588,7 @@ Problema XX/
 ### 📊 Progreso Actual (Agosto 2025)
 - ✅ **Semana 1-6**: Fundamentos completados (Clases 0-5)
 - ✅ **Semana 7**: Colecciones y listas (Clase 6) - ✅ Completada
+  - ✅ **1° Parcial Presentado**: Sistema de Gestión de Notas Académicas
 - ✅ **Semana 8**: Mapas (Clase 7) - ✅ Completada
 - ✅ **Semana 9**: Queues, Stack y Set (Clase 8) - ✅ Completada
 - ✅ **Semana 10**: Excepciones (Clase 9) - ✅ Completada
@@ -550,6 +599,7 @@ Problema XX/
 ### 🚀 Próximos Objetivos
 - **Completar Clase 11**: Principios de Maven y Spring (preparación para 2° parcial)
 - **Preparación para evaluaciones**: Revisar clases 1-10 para promociones
+- **Desarrollo del 2° Parcial**: Proyecto integrador con Maven y Spring
 
 ---
 
@@ -557,6 +607,9 @@ Problema XX/
 
 ### 📅 Fechas de Evaluación
 - **1° Parcial**: Semana 7 (29-sep) - Colecciones y listas (Clase 6)
+  - **Proyecto Presentado**: Sistema de Gestión de Notas Académicas ✅
+  - **Ubicación**: `Parcial 01/`
+  - **Estado**: ✅ Completado y documentado
 - **2° Parcial**: Semana 12 (3-nov) - Principios de Maven y Spring (Clase 11)
 
 ### 📚 Períodos de Evaluación
@@ -571,6 +624,7 @@ Problema XX/
   - Clase 4: POO ✅
   - Clase 5: Herencia e Interfaces ✅
   - Clase 6: Colecciones y Listas ✅
+  - **Proyecto Parcial 01**: Sistema de Gestión de Notas Académicas ✅
 - **2° Parcial**: Clases 7-11 (Mapas hasta Maven/Spring) ✅ **Clases 7-10 completas**
   - Clase 7: Mapas ✅
   - Clase 8: Sets, Queues y Stacks ✅
