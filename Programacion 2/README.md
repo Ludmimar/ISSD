@@ -585,7 +585,7 @@ Problema XX/
 
 ## 🎯 Hitos Importantes del Cronograma
 
-### 📊 Progreso Actual (Agosto 2025)
+### 📊 Progreso Actual (Octubre 2025)
 - ✅ **Semana 1-6**: Fundamentos completados (Clases 0-5)
 - ✅ **Semana 7**: Colecciones y listas (Clase 6) - ✅ Completada
   - ✅ **1° Parcial Presentado**: Sistema de Gestión de Notas Académicas
@@ -593,8 +593,8 @@ Problema XX/
 - ✅ **Semana 9**: Queues, Stack y Set (Clase 8) - ✅ Completada
 - ✅ **Semana 10**: Excepciones (Clase 9) - ✅ Completada
 - ✅ **Semana 11**: Gestión de archivos (Clase 10) - ✅ Completada
-- 📅 **Semana 12**: 2° Parcial - Maven y Spring (Clase 11) - Pendiente
-- 📅 **Semana 13-14**: Promociones y recuperatorios
+- 🔄 **Semana 12**: 2° Parcial - Maven y Spring (Clase 11) - En curso
+- 📅 **Semana 13-14**: Promociones y recuperatorios (Noviembre)
 
 ### 🚀 Próximos Objetivos
 - **Completar Clase 11**: Principios de Maven y Spring (preparación para 2° parcial)
