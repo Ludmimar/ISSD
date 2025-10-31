@@ -86,3 +86,4 @@ public class Socio {
         System.out.println("Socio: " + nombre + " - Antigüedad: " + antiguedad + " años");
     }
 }
+

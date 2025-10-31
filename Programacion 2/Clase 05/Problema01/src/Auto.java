@@ -102,3 +102,4 @@ public class Auto extends Vehiculo {
         System.out.println("Auto: " + marca + " " + modelo + " (" + año + ") - " + numeroPuertas + " puertas");
     }
 }
+

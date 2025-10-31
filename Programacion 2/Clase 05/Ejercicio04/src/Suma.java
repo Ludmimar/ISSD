@@ -35,3 +35,4 @@ public class Suma extends Operacion {
         resultado = valor1 + valor2;
     }
 }
+

@@ -35,3 +35,4 @@ public class Resta extends Operacion {
         resultado = valor1 - valor2;
     }
 }
+

@@ -109,3 +109,4 @@ public class JuegoAdivinaNumero implements Juego {
         System.out.println("¡Ganaste! Luego de " + intentos + " intentos");
     }
 }
+
