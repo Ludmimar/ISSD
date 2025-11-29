@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura - Clase 12</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+        }
+
+        .emoji {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            border-color: #667eea;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .result-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .result-label {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .result-value {
+            font-size: 36px;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .info {
+            margin-top: 30px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            font-size: 12px;
+            color: #666;
+            text-align: left;
+        }
+
+        .info h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .info code {
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .formula {
+            background: #fff3cd;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">🌡️</div>
+        <h1>Conversor de Temperatura</h1>
+        <p class="subtitle">Clase 12 - Aplicaciones Web con Backend Java</p>
+
+        <div class="form-group">
+            <label for="tEnCelsius">Temperatura en Celsius:</label>
+            <input type="number" id="tEnCelsius" name="tEnCelsius" placeholder="Ej: 30" step="0.1">
+        </div>
+
+        <button type="button" onclick="transformar()">🔄 Transformar!</button>
+
+        <div class="result-box">
+            <div class="result-label">En grados Fahrenheit:</div>
+            <div class="result-value" id="result">--</div>
+        </div>
+
+        <div class="formula">
+            <strong>Fórmula:</strong> °F = (°C × 9/5) + 32
+        </div>
+
+        <div class="info">
+            <h3>📋 Cómo funciona:</h3>
+            <ol style="margin-left: 20px; line-height: 1.8;">
+                <li>El frontend (este HTML) envía una petición GET al backend</li>
+                <li>El backend (Spring Boot) procesa la temperatura</li>
+                <li>El resultado se devuelve y se muestra aquí</li>
+            </ol>
+            <p style="margin-top: 10px;">
+                <strong>Endpoint:</strong> <code>GET /transformar?temp=[valor]</code>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        /**
+         * Función que envía la temperatura al backend y muestra el resultado.
+         * 
+         * Esta función:
+         * 1. Lee el valor del input
+         * 2. Crea una petición XMLHttpRequest
+         * 3. Envía la petición al servidor Spring Boot
+         * 4. Muestra el resultado en la página
+         */
+        function transformar() {
+            // Obtener el valor del input
+            var temperatura = document.getElementById("tEnCelsius").value;
+            
+            // Validar que se haya ingresado un valor
+            if (!temperatura) {
+                alert("Por favor, ingresa una temperatura");
+                return;
+            }
+            
+            // Crear el objeto XMLHttpRequest para la comunicación con el backend
+            var xhr = new XMLHttpRequest();
+            
+            // Configurar la petición GET al endpoint del backend
+            xhr.open("GET", "http://localhost:8080/transformar?temp=" + temperatura);
+            
+            // Definir qué hacer cuando llegue la respuesta
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        // Éxito: mostrar el resultado
+                        document.getElementById("result").textContent = xhr.responseText;
+                    } else {
+                        // Error: mostrar mensaje
+                        document.getElementById("result").textContent = "Error de conexión";
+                        console.error("Error:", xhr.status);
+                        alert("Error al conectar con el servidor.\n\n" +
+                              "Asegúrate de que el servidor Spring Boot esté ejecutándose.");
+                    }
+                }
+            };
+            
+            // Enviar la petición
+            xhr.send();
+        }
+
+        // Permitir transformar al presionar Enter
+        document.getElementById("tEnCelsius").addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                transformar();
+            }
+        });
+    </script>
+</body>
+</html>
+
