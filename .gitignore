@@ -1,0 +1,19 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+
+# Build
+target/
+out/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archivos personales - No subir a GitHub
+Programacion 2/LINKEDIN_POST.md
+Programacion 2/LINKEDIN_POST.txt
+
